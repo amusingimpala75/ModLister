@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "modlister",
+  "version": "1.0.0",
+  "name": "ModLister",
+  "description": "Adds a /mods command to see the installed mods",
+  "authors": [
+    "AmusingImpala"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/modlister/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.amusingimpala75.modlister.Modlister"
+    ]
+  },
+  "mixins": [
+    "modlister.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
